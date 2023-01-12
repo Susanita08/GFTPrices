@@ -1,0 +1,153 @@
+{
+  "version": "7.7.6",
+  "timestamp": 1673554500360,
+  "projects": [
+    {
+      "name": "GFT",
+      "documents": [
+        {
+          "type": "project",
+          "folderIds": [],
+          "name": "GFT",
+          "selectedEnvironmentId": null,
+          "selectedFolderId": null,
+          "selectedSidebarTab": null,
+          "selectedTabId": "cae64934-427e-4f2c-bc24-c0ba03bf4faa",
+          "sidebarWidth": null,
+          "createdAt": 1634229919167,
+          "id": "abc74d3c-a54e-46cf-9e8a-792f56d6a934",
+          "updatedAt": 1634230075529,
+          "sidebarView": "requests",
+          "selectedRequestId": null
+        },
+        {
+          "type": "tab",
+          "title": "Welcome",
+          "view": "Welcome",
+          "createdAt": 1634229919203,
+          "id": "cae64934-427e-4f2c-bc24-c0ba03bf4faa"
+        },
+        {
+          "type": "tab",
+          "title": "Import",
+          "view": "Importer",
+          "createdAt": 1634229934254,
+          "id": "a9dff8a9-c2e3-46c0-a8ec-e56d8985ad90"
+        },
+        {
+          "type": "folder",
+          "name": "My Folder",
+          "description": null,
+          "collapsed": false,
+          "selectedEnvironmentId": null,
+          "requestIds": [
+            "d5340195-7cec-4112-9512-4d75a326a65b",
+            "d99f6268-f273-4022-b571-6b094997e5be"
+          ],
+          "createdAt": 1634229980786,
+          "id": "a1f84d62-aca8-4033-a940-1e29aef97c7e"
+        },
+        {
+          "type": "request",
+          "projectId": null,
+          "folderId": "a1f84d62-aca8-4033-a940-1e29aef97c7e",
+          "name": "findPriceByProductIdAndBrandIdAndDate",
+          "url": "http://localhost:8084/prices/api/v1/findPrice/35455/1?dateFound=2020-06-14-10.00.00",
+          "method": "GET",
+          "bodyType": null,
+          "bodyXml": "",
+          "bodyJson": "",
+          "bodyText": "",
+          "authType": null,
+          "response": {
+            "contentType": "application/json",
+            "headers": [
+              {
+                "name": "connection",
+                "value": "keep-alive"
+              },
+              {
+                "name": "content-type",
+                "value": "application/json"
+              },
+              {
+                "name": "date",
+                "value": "Thu, 14 Oct 2021 16:47:38 GMT"
+              },
+              {
+                "name": "keep-alive",
+                "value": "timeout=60"
+              },
+              {
+                "name": "transfer-encoding",
+                "value": "chunked"
+              }
+            ],
+            "responseText": "{\"productId\":35455,\"brandId\":1,\"dateToFound\":\"2020-06-14T10:00:00\",\"rateToApply\":35.50,\"price\":{\"priority\":0,\"currencyCode\":\"EUR\",\"links\":[]},\"tax\":0.21,\"finalPrice\":42.96,\"response\":{\"code\":0,\"message\":\"Successfully\",\"strCode\":\"00\",\"description\":\"\"}}",
+            "statusCode": 200,
+            "statusText": "",
+            "duration": 246,
+            "size": "251 bytes",
+            "sentRequest": {
+              "id": "d5340195-7cec-4112-9512-4d75a326a65b",
+              "method": "GET",
+              "url": "http://localhost:8080/prices/api/v1/findPrice/35455/1?dateFound=2020-06-14-10.00.00",
+              "headers": {
+                "Content-Type": "application/json"
+              },
+              "data": null,
+              "multipart": null
+            }
+          },
+          "reqTabIndex": 0,
+          "resTabIndex": 0,
+          "description": null,
+          "reqPanelSize": null,
+          "resPanelSize": null,
+          "spec": null,
+          "createdAt": 1634229980810,
+          "id": "d5340195-7cec-4112-9512-4d75a326a65b",
+          "updatedAt": 1634230059036,
+          "_inProgress": false,
+          "_rename": false
+        },
+        {
+          "type": "tab",
+          "requestId": "d5340195-7cec-4112-9512-4d75a326a65b",
+          "title": "Request1",
+          "view": "HttpClient",
+          "createdAt": 1634229980821,
+          "id": "3a468951-faab-45b6-b399-ddb4befd1442"
+        },
+        {
+          "type": "requestHeader",
+          "requestId": "d5340195-7cec-4112-9512-4d75a326a65b",
+          "name": "Content-Type",
+          "value": "application/json",
+          "enabled": true,
+          "createdAt": 1634229987922,
+          "id": "ef05d769-c43d-446a-9650-2c53d83052f7",
+          "updatedAt": 1634230016945
+        },
+        {
+          "id": "b18ac6d6-3ced-456d-a170-18d1b48a891e",
+          "type": "requestQuery",
+          "requestId": "d5340195-7cec-4112-9512-4d75a326a65b",
+          "name": "dateFound",
+          "value": "2020-06-14-10.00.00",
+          "enabled": true,
+          "createdAt": 1673553849834,
+          "updatedAt": 1673553849834
+        },
+        {
+          "type": "tab",
+          "title": "Settings",
+          "view": "Settings",
+          "createdAt": 1673554466960,
+          "updatedAt": 1673554466960,
+          "id": "89efa262-4bd1-41e7-bd16-d75ff5a5a67e"
+        }
+      ]
+    }
+  ]
+}

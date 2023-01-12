@@ -1,4 +1,4 @@
-package com.gft.es.prices.gftprices;
+package com.gft.es.prices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
