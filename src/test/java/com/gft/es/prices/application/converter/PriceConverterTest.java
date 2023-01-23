@@ -1,6 +1,6 @@
 package com.gft.es.prices.application.converter;
 
-import com.gft.es.prices.application.model.dto.PriceModel;
+import com.gft.es.prices.application.model.PriceModel;
 import com.gft.es.prices.domain.entity.Price;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

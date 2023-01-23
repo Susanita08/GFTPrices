@@ -1,7 +1,7 @@
 package com.gft.es.prices.application.service;
 
 import com.gft.es.prices.application.converter.PriceConverter;
-import com.gft.es.prices.application.model.dto.PriceModel;
+import com.gft.es.prices.application.model.PriceModel;
 import com.gft.es.prices.application.model.responses.JsonOutputPrices;
 import com.gft.es.prices.application.enums.ApplicationMessage;
 import com.gft.es.prices.infrastructure.ports.primary.IPriceService;

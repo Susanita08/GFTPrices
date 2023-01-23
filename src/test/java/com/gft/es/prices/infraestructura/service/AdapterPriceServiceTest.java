@@ -1,9 +1,7 @@
 package com.gft.es.prices.infraestructura.service;
 
 import com.gft.es.prices.application.converter.PriceConverter;
-import com.gft.es.prices.application.model.dto.PriceModel;
 import com.gft.es.prices.application.service.PriceService;
-import com.gft.es.prices.domain.entity.Price;
 import com.gft.es.prices.infrastructure.ports.secundary.IAdapterH2Services;
 import com.gft.es.prices.infrastructure.config.SelfConfiguration;
 import com.gft.es.prices.application.enums.ApplicationMessage;

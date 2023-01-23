@@ -1,6 +1,6 @@
 package com.gft.es.prices.infrastructure.ports.secundary;
 
-import com.gft.es.prices.application.model.dto.PriceModel;
+import com.gft.es.prices.application.model.PriceModel;
 
 
 import java.time.LocalDateTime;
