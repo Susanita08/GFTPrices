@@ -1,7 +1,6 @@
 package com.gft.es.prices.application.model.responses;
 
 import com.gft.es.prices.application.model.JsonOutputGenerator;
-import com.gft.es.prices.application.model.dto.PriceModel;
 import com.gft.es.prices.application.model.responses.JsonOutputPrices.Response;
 import com.gft.es.prices.domain.entity.Price;
 import lombok.NoArgsConstructor;

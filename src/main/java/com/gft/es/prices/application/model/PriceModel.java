@@ -1,11 +1,10 @@
-package com.gft.es.prices.application.model.dto;
+package com.gft.es.prices.application.model;
 
 import com.gft.es.prices.application.validators.ConsistentDateParameters;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 
